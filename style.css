@@ -1,0 +1,160 @@
+/* Page accueil */
+#logo {
+    width: 20%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: black;
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.border_text {
+    border: 3px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 55px;
+}
+
+.size_box1, .size_box2, .size_box4, .size_box5 {
+    width: 130px;
+}
+
+.size_box2 {
+    height: 27px;
+}
+
+.size_box6 {
+    padding: 20px;
+}
+
+.size_box7 {
+    position: absolute;
+    right: 365px;
+    top: 0px;
+    padding: 20px;
+}
+
+/* Page Médiation Familiale */
+
+.fa-chevron-left {
+    position: absolute;
+    font-size: 30px;
+    padding-left: 30px;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.align_nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding: 5px;
+}
+
+.select_tableau {
+    width: 150px;
+    height: 40px;
+    font-size: x-large;
+}
+
+#name_search {
+    width: 400px;
+    height: 40px;
+}
+
+#number_search {
+    width: 150px;
+    height: 40px;
+}
+
+#tableau {
+    width: 1300px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+/* Séance Thérapie */
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.bigBox {
+    transform: scale(1.5);
+}
+
+
+
+.mini_checkbox {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.mini_container {
+    margin-bottom: 15px;
+}
+
+.Comment {
+    display: flex;
+    margin-top: 60px;
+    position: absolute;
+    right: 300px;
+}
+
+#Commentaires {
+    margin-left: 40px;
+}
+
+/* Creation client */
+
+#preformulaire {
+    display: flex;
+}
+
+#qualification {
+    margin-right: 50px;
+}
+
+#nom_prenom, #age_profession, #cp_ville, #tel_mail {
+    display: flex;
+}
+
+#nom, #age, #cp, #tel {
+    margin-right: 30px
+}
+
+#qualification, #mediateur_therapeute {
+    width: 130px;
+    height: 25px;
+    font-size: large;
+}
+
+#formulaire {
+    margin-left: 150px;
+}
+
+h2 {
+    text-align: center;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <!-- configuration -->
+        <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+        <meta charset="utf-8"/>
+
+        <!-- informations -->
+        <title>App CLCCMF</title>
+        <meta name="description" content=""/>
+
+        <!-- balise réseaux -->
+        <meta property="og:title" content="CLCCMF"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content=""/>
+        <meta property="og:description" content=""/>
+
+        <!-- style and script -->
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/b82f4d2f54.js" crossorigin="anonymous"></script>
+        
+    </head>
+
+    <body>
+
+      <div id="preformulaire">
+        <form method="post" action="traitement.php">
+          <p>
+            <select name="qualification" id="qualification">
+              <option value="mediation">Médiation</option>
+              <option value="audition">Audition</option>
+              <option value="sfp">SFP</option>
+              <option value="therapie">Thérapie</option>
+            </select>
+          </p>
+        </form>
+
+        <form method="post" action="traitement.php">
+          <p>
+            <select name="mediateur/therapeute" id="mediateur_therapeute">
+              <option value="marie">Marie</option>
+              <option value="julie">Julie</option>
+              <option value="stephanie">Stéphanie</option>
+            </select>
+          </p>
+        </form>
+      </div>
+
+      <h1>Identification client</h1>
+
+      <div id="formulaire">
+        <form method="post" action="traitement.php">
+          <p>
+            <select name="type" id="type">
+              <option value="seul">Seul(e)</option>
+              <option value="couple">Couple</option>
+              <option value="famille">Famille</option>
+            </select>
+          </p>
+        </form>
+
+        <form method="post" action="traitement.php">
+          <p>
+            <select name="sexe" id="sexe">
+              <option value="homme">Homme</option>
+              <option value="femme">Femme</option>
+            </select>
+          </p>
+        </form>
+
+        <div id="nom_prenom">
+          <form method="post" action="traitement.php">
+            <p>
+              <input type="text" name="nom" id="nom" placeholder="Nom"/>
+            </p>
+          </form>
+
+          <form method="post" action="traitement.php">
+            <p>
+              <input type="text" name="prenom" id="prenom" placeholder="Prénom"/>
+            </p>
+          </form>
+        </div>
+
+        <div id="age_profession">
+          <form method="post" action="traitement.php">
+            <p>
+              <input type="text" name="age" id="age" placeholder="Age"/>
+            </p>
+          </form>
+
+          <form method="post" action="traitement.php">
+            <p>
+              <input type="text" name="profession" id="profession" placeholder="Profession"/>
+            </p>
+          </form>
+        </div>
+
+        <form method="post" action="traitement.php">
+          <p>
+            <input type="text" name="sociopro" id="sociopro" placeholder="Sociopro"/>
+          </p>
+        </form>
+
+        <form method="post" action="traitement.php">
+          <p>
+            <select name="categorie_sociopro" id="categorie_sociopro">
+              <option></option>
+            </select>
+          </p>
+        </form>
+
+        <div id="cp_ville">
+          <form method="post" action="traitement.php">
+            <p>
+              <input type="text" name="cp" id="cp" placeholder="CP"/>
+            </p>
+          </form>
+
+          <form method="post" action="traitement.php">
+            <p>
+              <input type="text" name="ville" id="ville" placeholder="Ville"/>
+            </p>
+          </form>
+        </div>
+
+        <div id="tel_mail">
+          <form method="post" action="traitement.php">
+            <p>
+              <input type="tel" name="tel" id="tel" placeholder="Tél"/>
+            </p>
+          </form>
+
+          <form method="post" action="traitement.php">
+            <p>
+              <input type="email" name="mail" id="mail" placeholder="Mail"/>
+            </p>
+          </form>
+        </div>
+
+        <form method="post" action="traitement.php">
+          <p>
+            <input type="text" name="regime" id="regime" placeholder="Régime sécu"/>
+          </p>
+        </form>
+
+        <form method="post" action="traitement.php">
+          <p>
+            <input type="checkbox" name="rsa" id="rsa"/><label for="rsa">RSA</label>
+          </p>
+        </form>
+
+      </div>
+
+      <h2>Enfants</h2>
+
+      <form method="post" action="traitement.php">
+        <p>
+          <input type="number" name="nombre" name="nombre" placeholder="Nombre"/>
+        </p>
+      </form>
+
+
+
+    </body>
