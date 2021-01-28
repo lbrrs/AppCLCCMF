@@ -137,12 +137,45 @@ h1 {
     margin-right: 50px;
 }
 
-#nom_prenom, #age_profession, #cp_ville, #tel_mail {
+#type, #sexe, #categorie_sociopro {
+    width: 80px;
+    height: 30px;
+    font-size: medium;     
+}
+
+#categorie_sociopro, #sociopro {
+    width: 400px;
+}
+
+#nom, #prenom, #age, #profession, #sociopro, #categorie_sociopro, #cp, #ville, #tel, #mail, #regime, #age_enfant, #nom_enfant {
+    height: 25px;
+}
+
+#nom_prenom, #age_profession, #cp_ville, #tel_mail, #sociopro {
     display: flex;
+    margin: 30px;
+}
+
+#type, #sexe, #categorie_sociopro, #regime, #rsa, #age_enfant, #nom_enfant {
+    margin-left: 30px;
+}
+
+#sexe ,#rsa, #nom_enfant {
+    margin-top: 30px;
+}
+
+#rsa {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+#text_rsa {
+    font-weight: bold;
+    font-size: larger;
 }
 
 #nom, #age, #cp, #tel {
-    margin-right: 30px
+    margin-right: 50px
 }
 
 #qualification, #mediateur_therapeute {
@@ -157,4 +190,13 @@ h1 {
 
 h2 {
     text-align: center;
+}
+
+/*.box_enfant {
+    display: none;
+}*/
+
+.creer_dossier {
+    float: right;
+    margin: 30px;
 }
